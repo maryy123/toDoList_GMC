@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 5%;
+}
+.task {
+  background-color: rgb(179, 0, 59);
+  border-radius: 20px;
+  text-align: center;
+  padding: 3%;
+  padding-left: 5%;
+  display: flex;
+  margin-top: 5%;
+  color: aliceblue;
+  width: 100%;
+  position: relative;
+}
+.task li {
+  list-style: none;
+  display: flex;
+}
+.task button {
+  border-radius: 50px;
+  position: absolute;
+  right: 3%;
+  text-align: center;
+  font-weight: bold;
+  width: 5%;
+}
+.task button:hover {
+  /* opacity: 0.9; */
+  color: rgb(179, 0, 59);
+  background-color: whitesmoke;
+  width: 6%;
+}
